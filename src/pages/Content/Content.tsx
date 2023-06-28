@@ -1,5 +1,7 @@
 import { useTranslation } from 'react-i18next';
 
+import { useGetContent } from 'hooks/useGetContent';
+
 import { SectionTitle } from 'components/Typography/SectionTitle';
 
 import { PageLayout } from 'layout/PageLayout';
@@ -8,6 +10,11 @@ import * as Styled from './Content.styles';
 
 export const Content = () => {
   const { t } = useTranslation();
+
+  const { data } = useGetContent();
+
+  console.log(data);
+
   return (
     <Styled.Container>
       <PageLayout>
