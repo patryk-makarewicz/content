@@ -1,0 +1,74 @@
+{
+  "name": "makaDev Patryk Makarewicz",
+  "appName": "Template App",
+
+  "navigation": {
+    "home": "Home",
+    "calculator": "Calculator",
+    "contact": "Contact"
+  },
+
+  "calculator": {
+    "selectYear": "Select year",
+    "selectServices": "Select services",
+    "internet": "Internet",
+    "tv": "TV",
+    "phone": "Phone",
+    "decoder": "Decoder 4K",
+    "yearError": "Duplicated year, select different!",
+    "promo": "(Free!)"
+  },
+
+  "pages": {
+    "landing": {
+      "button": "Get started"
+    },
+    "calculator": {
+      "info": "Calculate Your services and get the best price.",
+      "addButton": "Add services",
+      "totalPrice": "Total price",
+      "currency": "zł"
+    }
+  },
+
+  "footer": {
+    "copyright": "Copyright Ⓒ {{year}} makaDev Patryk Makarewicz",
+    "privacy": "Privacy policy",
+    "terms": "Terms of service"
+  },
+
+  "contact": {
+    "title": "Contact",
+    "description": "If you have any questions, please write to me.",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "E-mail",
+    "phone": "Phone number",
+    "message": "Message",
+    "messagePlaceholder": "Your message...",
+    "submit": "Submit",
+    "isRequired": "This field is required!",
+    "sent": "Your message has been sent successfully",
+    "sending": "Sending..."
+  },
+
+  "cookie": {
+    "text": "By clicking Accept, you consent to our use of cookies. ",
+    "textButton": "Website regulations.",
+    "button": "Accept"
+  },
+
+  "messages": {
+    "fail": {
+      "generic": "Failed to download projects"
+    },
+    "success": {
+      "generic": "Successfully"
+    }
+  },
+
+  "errorBoundary": {
+    "message": "Oops... Try once again",
+    "button": "Refresh page"
+  }
+}

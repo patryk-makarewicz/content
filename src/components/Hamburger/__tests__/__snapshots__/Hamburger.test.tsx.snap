@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Hamburger should take the snapshot when close 1`] = `
+<body>
+  <div>
+    <button
+      class="sc-aXZVg Gvapt"
+      data-testid="button-hamburger"
+      type="button"
+    >
+      <div
+        class="sc-gEvEer cfdbZP"
+      />
+      <div
+        class="sc-gEvEer sc-eqUAAy cfdbZP giEXpz"
+      />
+      <div
+        class="sc-gEvEer sc-fqkvVR cfdbZP eJjnVN"
+      />
+    </button>
+  </div>
+</body>
+`;
+
+exports[`test Hamburger should take the snapshot when open 1`] = `
+<body
+  style="overflow: hidden;"
+>
+  <div>
+    <button
+      class="sc-aXZVg Gvapt"
+      data-testid="button-hamburger"
+      type="button"
+    >
+      <div
+        class="sc-gEvEer fsOJRY"
+        open=""
+      />
+      <div
+        class="sc-gEvEer sc-eqUAAy fsOJRY giJuLz"
+        open=""
+      />
+      <div
+        class="sc-gEvEer sc-fqkvVR fsOJRY iCXEHq"
+        open=""
+      />
+    </button>
+  </div>
+</body>
+`;

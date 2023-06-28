@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Contact should take and matches the snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="sc-jlZhew fVCUvx"
+  >
+    <h2
+      class="sc-dAlyuH fwxLVM"
+    >
+      contact.title
+    </h2>
+    <p
+      class="sc-cwHptR izyYR"
+    >
+      contact.description
+    </p>
+    <div
+      class="sc-jEACwC jzzNTX"
+    >
+      <form>
+        <div
+          class="sc-fqkvVR cWzMDi"
+        >
+          <label
+            class="sc-gsFSXq lWbfn"
+            for="firstName"
+          >
+            contact.firstName
+          </label>
+          <input
+            class="sc-kAyceB iyxSCr"
+            id="firstName"
+            maxlength="70"
+            name="firstName"
+            placeholder="contact.firstName"
+            type="text"
+          />
+        </div>
+        <div
+          class="sc-fqkvVR cWzMDi"
+        >
+          <label
+            class="sc-gsFSXq lWbfn"
+            for="lastName"
+          >
+            contact.lastName
+          </label>
+          <input
+            class="sc-kAyceB iyxSCr"
+            id="lastName"
+            maxlength="70"
+            name="lastName"
+            placeholder="contact.lastName"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="sc-fqkvVR cWzMDi"
+        >
+          <label
+            class="sc-gsFSXq lWbfn"
+            for="email"
+          >
+            contact.email
+          </label>
+          <input
+            class="sc-kAyceB iyxSCr"
+            id="email"
+            maxlength="70"
+            name="email"
+            placeholder="contact.email"
+            type="email"
+          />
+        </div>
+        <div
+          class="sc-fqkvVR cWzMDi"
+        >
+          <label
+            class="sc-gsFSXq lWbfn"
+            for="phone"
+          >
+            contact.phone
+          </label>
+          <input
+            class="sc-kAyceB iyxSCr"
+            id="phone"
+            maxlength="70"
+            name="phone"
+            placeholder="contact.phone"
+            type="tel"
+          />
+        </div>
+        <div
+          class="sc-fqkvVR cWzMDi"
+        >
+          <label
+            class="sc-gsFSXq lWbfn"
+            for="message"
+          >
+            contact.message
+          </label>
+          <textarea
+            class="sc-imWYAI gxGnJU"
+            id="message"
+            maxlength="1000"
+            name="message"
+            placeholder="contact.messagePlaceholder"
+          />
+        </div>
+        <div
+          style="display: flex; justify-content: center;"
+        >
+          <button
+            class="sc-eqUAAy fOohoi"
+            type="submit"
+          >
+            contact.submit
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      class="sc-dhKdcB dMHnuT"
+    >
+      <a
+        class="sc-kpDqfm exMwnz"
+        href="https://www.linkedin.com/in/patryk-makarewicz/"
+        target="_blank"
+        title="Go to LinkedIn"
+      >
+        <img
+          alt="LinkedIn logo"
+          height="36"
+          src="[object Object]"
+          width="36"
+        />
+      </a>
+      <a
+        class="sc-kpDqfm exMwnz"
+        href="https://github.com/patryk-makarewicz"
+        target="_blank"
+        title="Go to Github"
+      >
+        <img
+          alt="Github logo"
+          height="36"
+          src="[object Object]"
+          width="36"
+        />
+      </a>
+    </div>
+  </section>
+</DocumentFragment>
+`;

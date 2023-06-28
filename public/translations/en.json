@@ -1,0 +1,61 @@
+{
+  "name": "makaDev Patryk Makarewicz",
+  "appName": "Template App",
+
+  "navigation": {
+    "home": "Home",
+    "content": "Content",
+    "contact": "Contact"
+  },
+
+  "footer": {
+    "copyright": "Copyright Ⓒ {{year}} makaDev Patryk Makarewicz",
+    "privacy": "Privacy policy",
+    "terms": "Terms of service"
+  },
+
+  "errorBoundary": {
+    "message": "Oops... Try once again",
+    "button": "Refresh page"
+  },
+
+  "cookie": {
+    "text": "By clicking Accept, you consent to our use of cookies. ",
+    "textButton": "Website regulations.",
+    "button": "Accept"
+  },
+
+  "messages": {
+    "fail": {
+      "generic": "Failed to download projects"
+    },
+    "success": {
+      "generic": "Successfully"
+    }
+  },
+
+  "pages": {
+    "landing": {
+      "button": "Get started"
+    },
+    "content": {
+      "title": "Content",
+      "description": "This is the content of the application"
+    }
+  },
+
+  "contact": {
+    "title": "Contact",
+    "description": "If you have any questions, please write to me.",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "E-mail",
+    "phone": "Phone number",
+    "message": "Message",
+    "messagePlaceholder": "Your message...",
+    "submit": "Submit",
+    "isRequired": "This field is required!",
+    "sent": "Your message has been sent successfully",
+    "sending": "Sending..."
+  }
+}

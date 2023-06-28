@@ -1,0 +1,74 @@
+{
+  "name": "makaDev Patryk Makarewicz",
+  "appName": "Template App",
+
+  "navigation": {
+    "home": "Home",
+    "calculator": "Kalkulator",
+    "contact": "Kontakt"
+  },
+
+  "calculator": {
+    "selectYear": "Wybierz rok",
+    "selectServices": "Wybierz usługi",
+    "internet": "Internet",
+    "tv": "Telewizja",
+    "phone": "Telefon",
+    "decoder": "Dekoder 4K",
+    "yearError": "Zduplikowany rok, wybierz inny!",
+    "promo": "(Gratis!)"
+  },
+
+  "pages": {
+    "landing": {
+      "button": "Zaczynamy"
+    },
+    "calculator": {
+      "info": "Oblicz swoje usługi i uzyskaj najlepszą cenę.",
+      "addButton": "Dodaj usługi",
+      "totalPrice": "Cena całkowita",
+      "currency": "zł"
+    }
+  },
+
+  "footer": {
+    "copyright": "Copyright Ⓒ {{year}} makaDev Patryk Makarewicz",
+    "privacy": "Polityka prywatności",
+    "terms": "Regulamin serwisu"
+  },
+
+  "contact": {
+    "title": "Kontakt",
+    "description": "Jeśli masz jakieś pytania, napisz do mnie.",
+    "firstName": "Imię",
+    "lastName": "Nazwisko",
+    "email": "E-mail",
+    "phone": "Numer telefonu",
+    "message": "Wiadomość",
+    "messagePlaceholder": "Twoja wiadomość...",
+    "submit": "Wyślij",
+    "isRequired": "To pole jest wymagane!",
+    "sent": "Twoja wiadomość została wysłana pomyślnie",
+    "sending": "Wysyłanie..."
+  },
+
+  "cookie": {
+    "text": "Klikając Akceptuj, wyrażają Państwo zgodę na używanie przez nas plików cookie. ",
+    "textButton": "Regulamin serwisu.",
+    "button": "Akceptuj"
+  },
+
+  "messages": {
+    "fail": {
+      "generic": "Nie udało się pobrać projektów"
+    },
+    "success": {
+      "generic": "Sukces"
+    }
+  },
+
+  "errorBoundary": {
+    "message": "Upss... Spróbuj ponownie",
+    "button": "Odśwież stronę"
+  }
+}

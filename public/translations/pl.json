@@ -1,0 +1,61 @@
+{
+  "name": "makaDev Patryk Makarewicz",
+  "appName": "Template App",
+
+  "navigation": {
+    "home": "Home",
+    "content": "Treść",
+    "contact": "Kontakt"
+  },
+
+  "footer": {
+    "copyright": "Copyright Ⓒ {{year}} makaDev Patryk Makarewicz",
+    "privacy": "Polityka prywatności",
+    "terms": "Regulamin serwisu"
+  },
+
+  "errorBoundary": {
+    "message": "Upss... Spróbuj ponownie",
+    "button": "Odśwież stronę"
+  },
+
+  "cookie": {
+    "text": "Klikając Akceptuj, wyrażają Państwo zgodę na używanie przez nas plików cookie. ",
+    "textButton": "Regulamin serwisu.",
+    "button": "Akceptuj"
+  },
+
+  "messages": {
+    "fail": {
+      "generic": "Nie udało się pobrać projektów"
+    },
+    "success": {
+      "generic": "Sukces"
+    }
+  },
+
+  "pages": {
+    "landing": {
+      "button": "Zaczynamy"
+    },
+    "content": {
+      "title": "Zawartość",
+      "description": "To jest zawartość aplikacji"
+    }
+  },
+
+  "contact": {
+    "title": "Kontakt",
+    "description": "Jeśli masz jakieś pytania, napisz do mnie.",
+    "firstName": "Imię",
+    "lastName": "Nazwisko",
+    "email": "E-mail",
+    "phone": "Numer telefonu",
+    "message": "Wiadomość",
+    "messagePlaceholder": "Twoja wiadomość...",
+    "submit": "Wyślij",
+    "isRequired": "To pole jest wymagane!",
+    "sent": "Twoja wiadomość została wysłana pomyślnie",
+    "sending": "Wysyłanie..."
+  }
+}
