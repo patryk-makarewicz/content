@@ -18,7 +18,7 @@ export const useGetContent = () => {
   });
 
   return {
-    data: useMemo(() => (data ? data : []), [data]),
+    data: useMemo(() => (data ? data : {}), [data]),
     isLoading: isLoading || initialLoading,
     isError,
     isSuccess,

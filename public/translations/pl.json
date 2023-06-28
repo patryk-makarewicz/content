@@ -1,10 +1,10 @@
 {
   "name": "makaDev Patryk Makarewicz",
-  "appName": "Template App",
+  "appName": "Content App",
 
   "navigation": {
     "home": "Home",
-    "content": "Treść",
+    "content": "Zawartość",
     "contact": "Kontakt"
   },
 
@@ -40,7 +40,7 @@
     },
     "content": {
       "title": "Zawartość",
-      "description": "To jest zawartość aplikacji"
+      "description": "To jest aplikacja, w której pobieram dane z api za pomocą React Query i renderuję zawartość w tej zakładce."
     }
   },
 
