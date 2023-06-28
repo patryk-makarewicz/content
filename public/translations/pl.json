@@ -27,7 +27,7 @@
 
   "messages": {
     "fail": {
-      "generic": "Nie udało się pobrać projektów"
+      "generic": "Nie udało się pobrać zawartści."
     },
     "success": {
       "generic": "Sukces"

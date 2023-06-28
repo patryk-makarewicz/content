@@ -27,7 +27,7 @@
 
   "messages": {
     "fail": {
-      "generic": "Failed to download projects"
+      "generic": "Failed to download content."
     },
     "success": {
       "generic": "Successfully"

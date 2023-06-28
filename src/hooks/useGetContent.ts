@@ -3,6 +3,8 @@ import { useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useQuery } from 'react-query';
 
+import { ContentDTO } from 'api/ContentAPI/Content.dto';
+
 export const useGetContent = () => {
   const { t } = useTranslation();
   const [initialLoading, setInitialLoading] = useState(true);
@@ -18,7 +20,7 @@ export const useGetContent = () => {
   });
 
   return {
-    data: useMemo(() => (data ? data : {}), [data]),
+    data: useMemo(() => (data ? data : {}), [data]) as ContentDTO,
     isLoading: isLoading || initialLoading,
     isError,
     isSuccess,
