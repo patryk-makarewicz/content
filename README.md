@@ -18,11 +18,11 @@ This is service content app.
 ✔ HTML<br />
 ✔ CSS<br />
 
-<!-- ## Link to website
+## Link to website
 
 To watch click [here]
 
-[here]: https://pm-services-calc.netlify.app/ -->
+[here]: https://pm-content.netlify.app
 
 ## Getting Started with Create React App
 
