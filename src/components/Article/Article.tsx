@@ -2,6 +2,7 @@ import ReactHtmlParser from 'react-html-parser';
 import { useTranslation } from 'react-i18next';
 
 import { ContentElementsModel } from 'api/ContentAPI/Content.model';
+import { BASE_URL } from 'api/config';
 
 type ArticleProps = {
   article: ContentElementsModel;
@@ -19,7 +20,7 @@ export const Article = ({ article }: ArticleProps) => {
         Image:{' '}
         <img
           style={{ width: '200px' }}
-          src={`https://content-eu-4.content-cms.com/api/859f2008-a40a-4b92-afd0-24bb44d10124${article.mainImage.value.leadImage.asset.resourceUri}`}
+          src={`${BASE_URL}${article.mainImage.value.leadImage.asset.resourceUri}`}
           alt={article.mainImage.value.leadImage.asset.altText}
         />
       </p>
