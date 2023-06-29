@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 
 import { useGetContent } from 'hooks/useGetContent';
 
+import { Article } from 'components/Article';
 import { Spinner } from 'components/Spinner';
 import { SectionTitle } from 'components/Typography/SectionTitle';
 
@@ -12,9 +13,9 @@ import * as Styled from './Content.styles';
 export const Content = () => {
   const { t } = useTranslation();
 
-  const { data, isLoading, isError } = useGetContent();
+  const { article, isLoading, isError } = useGetContent();
 
-  console.log(data);
+  console.log(article);
 
   return (
     <Styled.Container>
@@ -24,7 +25,7 @@ export const Content = () => {
         <Styled.Box>
           {isLoading && <Spinner />}
           {isError && <Styled.ErrorMessage>{t('messages.fail.generic')}</Styled.ErrorMessage>}
-          {!isLoading && !isError && <Styled.Paragraph>{data.elements.heading.value}</Styled.Paragraph>}
+          {!isLoading && !isError && <Article article={article} />}
         </Styled.Box>
       </PageLayout>
     </Styled.Container>
