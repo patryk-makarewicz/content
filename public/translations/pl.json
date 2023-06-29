@@ -1,10 +1,10 @@
 {
   "name": "makaDev Patryk Makarewicz",
-  "appName": "Template App",
+  "appName": "Content App",
 
   "navigation": {
     "home": "Home",
-    "content": "Treść",
+    "content": "Zawartość",
     "contact": "Kontakt"
   },
 
@@ -27,7 +27,7 @@
 
   "messages": {
     "fail": {
-      "generic": "Nie udało się pobrać projektów"
+      "generic": "Nie udało się pobrać zawartści."
     },
     "success": {
       "generic": "Sukces"
@@ -40,7 +40,7 @@
     },
     "content": {
       "title": "Zawartość",
-      "description": "To jest zawartość aplikacji"
+      "description": "To jest aplikacja, w której pobieram dane z api za pomocą React Query i renderuję zawartość w tej zakładce."
     }
   },
 

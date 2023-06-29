@@ -1,6 +1,6 @@
 {
   "name": "makaDev Patryk Makarewicz",
-  "appName": "Template App",
+  "appName": "Content App",
 
   "navigation": {
     "home": "Home",
@@ -27,7 +27,7 @@
 
   "messages": {
     "fail": {
-      "generic": "Failed to download projects"
+      "generic": "Failed to download content."
     },
     "success": {
       "generic": "Successfully"
@@ -40,7 +40,7 @@
     },
     "content": {
       "title": "Content",
-      "description": "This is the content of the application"
+      "description": "This is an application in which I fetch data from the api using React Query and render the content in this tab."
     }
   },
 
