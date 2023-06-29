@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 import { BASE_URL, useAPImocks } from '../config';
-import { ContentDTO } from './Content.dto';
 import { getContentMock } from './Content.mock';
+import { ContentDTO } from './Content.model';
 
 export const getContent = () =>
   useAPImocks

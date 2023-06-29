@@ -1,6 +1,6 @@
 import { request } from 'api/request';
 
-import { ContentDTO } from './Content.dto';
+import { ContentDTO } from './Content.model';
 
 export const getContentMock = () => {
   return request<ContentDTO>({
