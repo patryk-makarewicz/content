@@ -1,9 +1,9 @@
 import { QueryKey, ContentAPI } from 'api';
-import { useMemo, useState } from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useQuery } from 'react-query';
 
-import { ContentDTO } from 'api/ContentAPI/Content.dto';
+import { ContentDTO, ContentElementsModel } from 'api/ContentAPI/Content.model';
 
 export const useGetContent = () => {
   const { t } = useTranslation();
@@ -20,7 +20,8 @@ export const useGetContent = () => {
   });
 
   return {
-    data: useMemo(() => (data ? data : {}), [data]) as ContentDTO,
+    data: (data ? data : {}) as ContentDTO,
+    article: (data && data.elements ? data.elements : {}) as ContentElementsModel,
     isLoading: isLoading || initialLoading,
     isError,
     isSuccess,
