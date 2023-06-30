@@ -3,30 +3,30 @@
 exports[`test Content should take and matches the snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="sc-dcJsrY kVmZFq"
+    class="sc-cPiKLX iEhEKS"
   >
     <section
-      class="sc-fqkvVR jcXqrF"
+      class="sc-jEACwC iNpONy"
     >
       <h2
-        class="sc-eqUAAy gXPqIV"
+        class="sc-cwHptR jxSrIT"
         data-testid="section-title"
       >
         pages.content.title
       </h2>
       <p
-        class="sc-iGgWBj jAyQJt"
+        class="sc-dLMFU ihVXHR"
       >
         pages.content.description
       </p>
       <div
-        class="sc-kAyceB gqnuAi"
+        class="sc-eDPEul kaImDi"
       >
         <div
-          class="sc-aXZVg iDoKHX"
+          class="sc-dAlyuH cZSiNo"
         >
           <svg
-            class="sc-gEvEer ozdxu spinner"
+            class="sc-jlZhew dNjoFe spinner"
             data-testid="spinner"
             height="50px"
             version="1.1"

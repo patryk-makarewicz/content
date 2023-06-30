@@ -1,10 +1,15 @@
 import { render } from '@testing-library/react';
 import React from 'react';
+import { RecoilRoot } from 'recoil';
 
 import { Article, ArticleProps } from '../Article';
 
 const renderArticle = ({ article = {} }: Partial<ArticleProps> = {}) => {
-  const { getByTestId } = render(<Article article={article} />);
+  const { getByTestId } = render(
+    <RecoilRoot>
+      <Article article={article} />
+    </RecoilRoot>
+  );
 
   return {
     getByTestId,
