@@ -8,7 +8,7 @@ export const ErrorTile = () => {
 
   return (
     <Styled.Wrapper>
-      <Styled.Icon src={ErrorLogo} alt="Error logo" />
+      <Styled.Icon src={ErrorLogo} alt="Error logo" data-testid="error-icon" />
       <Styled.ErrorMessage>{t('messages.fail.generic')}</Styled.ErrorMessage>
     </Styled.Wrapper>
   );
