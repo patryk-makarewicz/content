@@ -9,6 +9,10 @@ type BoxProps = {
   $margin: string;
 };
 
+type IconProps = {
+  $dark: boolean;
+};
+
 export const Wrapper = styled.div`
   padding: ${padding.m};
   box-shadow: ${shadow.first};
@@ -72,7 +76,15 @@ export const Metadata = styled.div`
   font-weight: ${fontWeight.semiBold};
 `;
 
-export const Icon = styled.img`
+export const Icon = styled.img<IconProps>`
   width: 25px;
   height: 25px;
+  ${({ $dark }) =>
+    $dark
+      ? css`
+          filter: invert(100%);
+        `
+      : css`
+          filter: none;
+        `}
 `;

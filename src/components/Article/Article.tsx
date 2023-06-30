@@ -4,6 +4,8 @@ import ReactHtmlParser from 'react-html-parser';
 import { ContentElementsModel } from 'api/ContentAPI/Content.model';
 import { BASE_URL } from 'api/config';
 
+import { useTheme } from 'hooks/useTheme';
+
 import { Placeholder } from 'components/Placeholder';
 
 import { PhotoLoad } from 'utils/photo';
@@ -19,6 +21,7 @@ export type ArticleProps = {
 
 export const Article = ({ article }: ArticleProps) => {
   const { onLoad, loaded, refPhoto } = PhotoLoad();
+  const { theme } = useTheme();
 
   return (
     <Styled.Wrapper>
@@ -34,7 +37,7 @@ export const Article = ({ article }: ArticleProps) => {
       </Styled.ImageWrapper>
       <Styled.Title data-testid="article-title">
         <Styled.Box $margin="0 0 8px 0">
-          <Styled.Icon src={TitleLogo} alt="Title logo" />
+          <Styled.Icon src={TitleLogo} alt="Title logo" $dark={theme} />
           {article?.heading?.value}
         </Styled.Box>
       </Styled.Title>
@@ -44,14 +47,14 @@ export const Article = ({ article }: ArticleProps) => {
         ))}
       </Styled.Body>
       <Styled.Box $margin="12px 0 8px 0">
-        <Styled.Icon src={CalendarLogo} alt="Calendar logo" />
+        <Styled.Icon src={CalendarLogo} alt="Calendar logo" $dark={theme} />
         <Styled.Metadata data-testid="article-date">
           {article?.date?.value && format(parseISO(article?.date?.value), 'dd-MM-yyyy, HH:mm')}
         </Styled.Metadata>
       </Styled.Box>
       <Styled.Metadata data-testid="article-author">
         <Styled.Box $margin="0">
-          <Styled.Icon src={PersonLogo} alt="Person logo" />
+          <Styled.Icon src={PersonLogo} alt="Person logo" $dark={theme} />
           {article?.author?.value}
         </Styled.Box>
       </Styled.Metadata>
