@@ -4,4 +4,6 @@ type SectionTitleType = {
   title: string;
 };
 
-export const SectionTitle = ({ title }: SectionTitleType) => <Styled.SectionTitle>{title}</Styled.SectionTitle>;
+export const SectionTitle = ({ title }: SectionTitleType) => (
+  <Styled.SectionTitle data-testid="section-title">{title}</Styled.SectionTitle>
+);
