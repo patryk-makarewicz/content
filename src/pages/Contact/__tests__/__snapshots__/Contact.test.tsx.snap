@@ -7,6 +7,7 @@ exports[`test Contact should take and matches the snapshot 1`] = `
   >
     <h2
       class="sc-dAlyuH fwxLVM"
+      data-testid="section-title"
     >
       contact.title
     </h2>
