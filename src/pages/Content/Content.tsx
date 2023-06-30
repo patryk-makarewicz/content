@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { useGetContent } from 'hooks/useGetContent';
 
 import { Article } from 'components/Article';
+import { ErrorTile } from 'components/ErrorTile';
 import { Spinner } from 'components/Spinner';
 import { SectionTitle } from 'components/Typography/SectionTitle';
 
@@ -22,7 +23,7 @@ export const Content = () => {
         <Styled.Paragraph>{t('pages.content.description')}</Styled.Paragraph>
         <Styled.Box>
           {isLoading && <Spinner />}
-          {isError && <Styled.ErrorMessage>{t('messages.fail.generic')}</Styled.ErrorMessage>}
+          {isError && <ErrorTile />}
           {!isLoading && !isError && <Article article={article} />}
         </Styled.Box>
       </PageLayout>
