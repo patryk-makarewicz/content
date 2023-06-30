@@ -5,6 +5,10 @@ type PhotoProps = {
   hide: boolean;
 };
 
+type BoxProps = {
+  $margin: string;
+};
+
 export const Wrapper = styled.div`
   padding: ${padding.m};
   box-shadow: ${shadow.first};
@@ -48,16 +52,27 @@ export const ImageWrapper = styled.div`
   margin-bottom: ${margin.m};
 `;
 
+export const Box = styled.div<BoxProps>`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  ${({ $margin }) =>
+    css`
+      margin: ${$margin};
+    `}
+`;
+
 export const Title = styled.h3`
   font-size: ${fontSize.l};
   font-weight: ${fontWeight.bold};
-  margin-bottom: ${margin.s};
-  display: flex;
-  align-items: flex-end;
-  gap: 8px;
 `;
 
-export const Metadata = styled.p`
+export const Metadata = styled.div`
   font-size: ${fontSize.s};
   font-weight: ${fontWeight.semiBold};
+`;
+
+export const Icon = styled.img`
+  width: 25px;
+  height: 25px;
 `;

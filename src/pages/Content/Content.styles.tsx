@@ -20,6 +20,7 @@ export const ErrorMessage = styled(Paragraph)`
 export const Box = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   min-height: 100%;
   padding: ${padding.xl} 0;
 `;

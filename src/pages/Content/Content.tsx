@@ -15,8 +15,6 @@ export const Content = () => {
 
   const { article, isLoading, isError } = useGetContent();
 
-  console.log(article);
-
   return (
     <Styled.Container>
       <PageLayout>

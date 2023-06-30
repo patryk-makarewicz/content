@@ -8,7 +8,9 @@ import { Placeholder } from 'components/Placeholder';
 
 import { PhotoLoad } from 'utils/photo';
 
-import { ReactComponent as TitleLogo } from '../../assets/title.svg';
+import { default as CalendarLogo } from '../../assets/calendar.svg';
+import { default as PersonLogo } from '../../assets/person.svg';
+import { default as TitleLogo } from '../../assets/title.svg';
 import * as Styled from './Article.styles';
 
 export type ArticleProps = {
@@ -31,18 +33,28 @@ export const Article = ({ article }: ArticleProps) => {
         />
       </Styled.ImageWrapper>
       <Styled.Title data-testid="article-title">
-        <TitleLogo width={20} height={20} />
-        {article?.heading?.value}
+        <Styled.Box $margin="0 0 8px 0">
+          <Styled.Icon src={TitleLogo} alt="Title logo" />
+          {article?.heading?.value}
+        </Styled.Box>
       </Styled.Title>
       <Styled.Body data-testid="article-body">
         {article?.body?.values.map((elem, index) => (
           <div key={index}>{ReactHtmlParser(elem)}</div>
         ))}
       </Styled.Body>
-      <Styled.Metadata data-testid="article-date">
-        {article?.date?.value && format(parseISO(article?.date?.value), 'dd-MM-yyyy, HH:mm')}
+      <Styled.Box $margin="12px 0 8px 0">
+        <Styled.Icon src={CalendarLogo} alt="Calendar logo" />
+        <Styled.Metadata data-testid="article-date">
+          {article?.date?.value && format(parseISO(article?.date?.value), 'dd-MM-yyyy, HH:mm')}
+        </Styled.Metadata>
+      </Styled.Box>
+      <Styled.Metadata data-testid="article-author">
+        <Styled.Box $margin="0">
+          <Styled.Icon src={PersonLogo} alt="Person logo" />
+          {article?.author?.value}
+        </Styled.Box>
       </Styled.Metadata>
-      <Styled.Metadata data-testid="article-author">Author: {article?.author?.value}</Styled.Metadata>
     </Styled.Wrapper>
   );
 };
