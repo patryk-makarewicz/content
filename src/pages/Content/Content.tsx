@@ -1,5 +1,4 @@
-import { useTranslation, Trans } from 'react-i18next';
-import { colors } from 'styles';
+import { useTranslation } from 'react-i18next';
 
 import { useGetContent } from 'hooks/useGetContent';
 
@@ -21,12 +20,7 @@ export const Content = () => {
     <Styled.Container>
       <PageLayout>
         <SectionTitle title={t('pages.content.title')} />
-        <Styled.Paragraph>
-          <Trans
-            i18nKey="pages.content.description"
-            components={{ span: <span style={{ fontWeight: 600, color: `${colors.primary}` }} /> }}
-          />
-        </Styled.Paragraph>
+        <Styled.Paragraph>{t('pages.content.description')}</Styled.Paragraph>
         <Styled.Box>
           {isLoading && <Spinner />}
           {isError && <ErrorTile />}

@@ -40,7 +40,7 @@
     },
     "content": {
       "title": "Zawartość",
-      "description": "Ta aplikacja została stworzona z wykorzystaniem technologii <blue>React</blue> w połączeniu z <blue>TypeScript</blue>. Jej głównym zadaniem jest pobieranie danych z zewnętrznego <blue>API</blue> za pomocą biblioteki <blue>React Query</blue>, a następnie renderowanie części danych w tej zakładce. W celu zapewnienia jakości i niezawodności aplikacji, zaimplementowałem testy przy użyciu biblioteki <blue>React Testing Library</blue>. Wizualny wygląd aplikacji został zaimplementowany przy użyciu biblioteki <blue>Styled Components</blue>. Dodatkowo, stan motywu aplikacji jest przechowywany przy użyciu biblioteki <blue>Recoil</blue> oraz aplikacja oferuje również możliwość wyboru języka."
+      "description": "Ta aplikacja została stworzona z wykorzystaniem technologii React w połączeniu z TypeScrip. Jej głównym zadaniem jest pobieranie danych z zewnętrznego API za pomocą biblioteki React Query, a następnie renderowanie części danych w tej zakładce. W celu zapewnienia jakości i niezawodności aplikacji, zaimplementowałem testy przy użyciu biblioteki React Testing Library. Wizualny wygląd aplikacji został zaimplementowany przy użyciu biblioteki Styled Components. Dodatkowo, stan motywu aplikacji jest przechowywany przy użyciu biblioteki Recoil oraz aplikacja oferuje również możliwość wyboru języka."
     }
   },
 
