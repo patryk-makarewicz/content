@@ -33,13 +33,13 @@ export const Label = styled.label`
 `;
 
 const baseFieldsStyles = css`
-  box-shadow: inset 0px 0px 10px -6px rgba(66, 68, 90, 1);
   margin: 0 0 25px 0;
   width: 100%;
   font-size: ${fontSize.s};
-  border: 1px solid ${colors.gray2};
-  border-radius: 2px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
   font-family: 'Archivo', sans-serif;
+  background-color: var(--background-secondary-color);
 
   &:focus {
     outline-style: inherit;
