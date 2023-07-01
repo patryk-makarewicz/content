@@ -16,7 +16,9 @@ exports[`test Content should take and matches the snapshot 1`] = `
       </h2>
       <p
         class="sc-dLMFU iXqwZE"
-      />
+      >
+        pages.content.description
+      </p>
       <div
         class="sc-eDPEul kaImDi"
       >
