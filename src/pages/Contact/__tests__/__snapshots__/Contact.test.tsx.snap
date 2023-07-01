@@ -30,7 +30,7 @@ exports[`test Contact should take and matches the snapshot 1`] = `
             contact.firstName
           </label>
           <input
-            class="sc-kAyceB iyxSCr"
+            class="sc-kAyceB hBqCkZ"
             id="firstName"
             maxlength="70"
             name="firstName"
@@ -48,7 +48,7 @@ exports[`test Contact should take and matches the snapshot 1`] = `
             contact.lastName
           </label>
           <input
-            class="sc-kAyceB iyxSCr"
+            class="sc-kAyceB hBqCkZ"
             id="lastName"
             maxlength="70"
             name="lastName"
@@ -67,7 +67,7 @@ exports[`test Contact should take and matches the snapshot 1`] = `
             contact.email
           </label>
           <input
-            class="sc-kAyceB iyxSCr"
+            class="sc-kAyceB hBqCkZ"
             id="email"
             maxlength="70"
             name="email"
@@ -85,7 +85,7 @@ exports[`test Contact should take and matches the snapshot 1`] = `
             contact.phone
           </label>
           <input
-            class="sc-kAyceB iyxSCr"
+            class="sc-kAyceB hBqCkZ"
             id="phone"
             maxlength="70"
             name="phone"
@@ -103,7 +103,7 @@ exports[`test Contact should take and matches the snapshot 1`] = `
             contact.message
           </label>
           <textarea
-            class="sc-imWYAI gxGnJU"
+            class="sc-imWYAI hTQPsO"
             id="message"
             maxlength="1000"
             name="message"
