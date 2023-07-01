@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { padding } from 'styles/variables';
+import { lineHeight, padding } from 'styles/variables';
 
 export const Container = styled.div`
   width: 100%;
@@ -9,6 +9,9 @@ export const Container = styled.div`
 
 export const Paragraph = styled.p`
   text-align: center;
+  max-width: 1080px;
+  margin: auto;
+  line-height: ${lineHeight.l};
 `;
 
 export const Box = styled.div`

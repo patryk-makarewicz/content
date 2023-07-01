@@ -40,7 +40,7 @@
     },
     "content": {
       "title": "Content",
-      "description": "This is an application in which I fetch data from the api using React Query and render the content in this tab."
+      "description": "This application has been developed using <blue>React</blue> technology in combination with <blue>TypeScript</blue>. Its main purpose is to fetch data from an external <blue>API</blue> using the <blue>React Query</blue> library, and then render a portion of that data in this tab. To ensure the quality and reliability of the application, I have implemented tests using the <blue>React Testing Library</blue>. The visual appearance of the application has been implemented using the <blue>Styled Components</blue> library. Additionally, the application's theme state is managed using the <blue>Recoil</blue> library, and it also offers the option to choose a language."
     }
   },
 

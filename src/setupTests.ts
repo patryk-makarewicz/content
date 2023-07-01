@@ -13,10 +13,17 @@ window.matchMedia = (query) => ({
 });
 
 jest.mock('react-i18next', () => ({
-  useTranslation: () => ({
-    t: (key: unknown) => key,
-    i18n: { changeLanguage: jest.fn() },
-  }),
+  ...jest.requireActual('react-i18next'),
+  useTranslation: () => {
+    return {
+      t: (str: string) => str,
+      i18n: {
+        language: 'en',
+        addResourceBundle: () => jest.fn(),
+        changeLanguage: () => new Promise(() => {}),
+      },
+    };
+  },
 }));
 
 export const privateWarn = (filteredWarnMessages: string[]) => {

@@ -40,7 +40,7 @@
     },
     "content": {
       "title": "Zawartość",
-      "description": "To jest aplikacja, w której pobieram dane z api za pomocą React Query i renderuję zawartość w tej zakładce."
+      "description": "Ta aplikacja została stworzona z wykorzystaniem technologii <blue>React</blue> w połączeniu z <blue>TypeScript</blue>. Jej głównym zadaniem jest pobieranie danych z zewnętrznego <blue>API</blue> za pomocą biblioteki <blue>React Query</blue>, a następnie renderowanie części danych w tej zakładce. W celu zapewnienia jakości i niezawodności aplikacji, zaimplementowałem testy przy użyciu biblioteki <blue>React Testing Library</blue>. Wizualny wygląd aplikacji został zaimplementowany przy użyciu biblioteki <blue>Styled Components</blue>. Dodatkowo, stan motywu aplikacji jest przechowywany przy użyciu biblioteki <blue>Recoil</blue> oraz aplikacja oferuje również możliwość wyboru języka."
     }
   },
 
