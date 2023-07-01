@@ -2,7 +2,7 @@
 
 # General info
 
-This is service content app.
+This is an application in which I fetch data from the api using React Query and render in ten content tab.
 <br />
 
 ## What's inside?
