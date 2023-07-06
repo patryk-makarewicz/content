@@ -8,7 +8,7 @@ This is an application in which I fetch data from the api using React Query and 
 ## What's inside?
 
 ✔ React<br />
-✔ Redux Query<br />
+✔ React Query<br />
 ✔ Rest API<br />
 ✔ Recoil<br />
 ✔ TypeScript<br />
